@@ -10,7 +10,7 @@
 	// Send request to API
 	function getPet(){
 		// Put your endpoint here, not mine!!!!
-		var apiEndpoint = 'http://petstore-demo-endpoint.execute-api.com/petstore/pets/';
+		var apiEndpoint = 'http://petstore-demo-endpoint.execute-api.com/petstore/pets';
 		var petId = $('#petId').val();
 		var numPets = 3;
 		if (petId>numPets) {
